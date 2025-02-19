@@ -1,0 +1,80 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#calculator{
+    
+    background-color: #3b3838;
+    max-width: 300px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    overflow: hidden;
+}
+#display{
+    font-family: monospace;
+    width: 100%;
+    font-size: 70px;border: none;
+    text-align: left;
+    color:white;
+    background-color: black;
+}
+button{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border:none;
+    background-color: #454646;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#keys{
+    display: grid;
+    padding: 10px;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+button:hover{
+    background-color: #707070;
+}
+button:active{
+    background-color: #262626;
+}
+#clear{
+    background-color: red;
+}
+#clear:hover{
+    background-color: #d91b15;
+}
+#clear:active{
+    background-color: #ed0d06;
+}
+#equal{
+    background-color: #5e4de2;
+}
+#equal:hover{
+    background-color: #3a26d2;
+}
+#equal:active{
+    background-color: #5126d2;
+}
+.opertator{
+    background-color: #ff8502;
+}
+.opertator:hover{
+    background-color:  #ff7300;
+}
+.opertator:active{
+    background-color:  #ff7b00;
+}
